@@ -1,0 +1,914 @@
+TChatClient
+v7
+r0
+t329742708.936121
+cCheck dependencies
+cProcessInfoPlistFile /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/Info.plist ChatClient-Info.plist
+cCompileXIB /Users/cesarerocchi/Desktop/ray/ChatClient/MainWindow.xib
+cCompileXIB /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/../ChatClientViewController.xib
+cProcessPCH /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-fqqgexjbzdtmhkgemmhnsqjoloeb/ChatClient_Prefix.pch.gch ChatClient_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/main.o /Users/cesarerocchi/Desktop/ray/ChatClient/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientAppDelegate.o /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientViewController.o /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/cesarerocchi/Desktop/ChatClient/ChatClientViewController.xib
+c000000004DDF823800000000000052B9
+t1306493496
+s21177
+
+N/Users/cesarerocchi/Desktop/ChatClient/ChatClient_Prefix.pch
+c000000004DDF805F00000000000000BD
+t1306493023
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.h
+c000000004DDF805F00000000000001F2
+t1306493023
+s498
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m
+c000000004DDF805F0000000000000ABA
+t1306493023
+s2746
+i"ChatClientAppDelegate.h"
+i"ChatClientViewController.h"
+
+N/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.h
+c000000004DDF9CC70000000000000365
+t1306500295
+s869
+i<UIKit/UIKit.h>
+i"ChatMessagesViewController.h"
+
+N/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m
+c000000004DDFA6790000000000000ECA
+t1306502777
+s3786
+i"ChatClientViewController.h"
+
+N/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.h
+c000000004DDFA2370000000000000318
+t1306501687
+s792
+i<UIKit/UIKit.h>
+i"ChatClientViewController.h"
+
+N/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m
+c000000004DDFB1EA0000000000000833
+t1306505706
+s2099
+i"ChatMessagesViewController.h"
+
+N/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.xib
+c000000004DDFB002000000000000638F
+t1306505218
+s25487
+
+N/Users/cesarerocchi/Desktop/ChatClient/MainWindow.xib
+c000000004DDF805F0000000000004E4D
+t1306493023
+s20045
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClient.LinkFileList
+c000000004DDF93F3000000000000023B
+t1306498035
+s571
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientAppDelegate.o
+t1306501687
+s52020
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientViewController.o
+t1306504832
+s56456
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatMessagesViewController.o
+t1306505681
+s54892
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/main.o
+t1306493184
+s6312
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app
+t1306505681
+s272
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app.dSYM
+t1306505681
+s102
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient
+t1306505681
+s32372
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClientViewController.nib
+t1306493503
+s3445
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatMessagesViewController.nib
+t1306505222
+s3950
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/Info.plist
+t1306504830
+s606
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/MainWindow.nib
+t1306493182
+s1687
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/PkgInfo
+t1306504830
+s8
+
+N/Users/cesarerocchi/Desktop/ChatClient/main.m
+c000000004DDF805F000000000000016D
+t1306493023
+s365
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/ChatClient_Prefix.pch
+c000000004DDF805F00000000000000BD
+t1306493023
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/../ChatClientViewController.xib
+c000000004DF733790000000000008204
+t1308046201
+s33284
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.h
+c000000004DDF805F00000000000001F2
+t1306493023
+s498
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m
+c000000004DDF805F0000000000000ABA
+t1306493023
+s2746
+i"ChatClientAppDelegate.h"
+i"ChatClientViewController.h"
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.h
+c000000004DF63A930000000000000481
+t1307982483
+s1153
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m
+c000000004DF741D700000000000011D4
+t1308049879
+s4564
+i"ChatClientViewController.h"
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatMessagesViewController.xib
+c000000004DE0AD37000000000000635B
+t1306570039
+s25435
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/MainWindow.xib
+c000000004DDF805F0000000000004E4D
+t1306493023
+s20045
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClient.LinkFileList
+c000000004DF741F100000000000001B1
+t1308049905
+s433
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientAppDelegate.o
+t1308049908
+s51900
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientViewController.o
+t2
+s0
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/main.o
+t1308049908
+s6320
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app
+t2
+s0
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app.dSYM
+t2
+s0
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient
+t2
+s0
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClientViewController.nib
+t1308049906
+s4844
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatMessagesViewController.nib
+t1306570047
+s3955
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/Info.plist
+t1308049905
+s606
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/MainWindow.nib
+t1308049906
+s1687
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/PkgInfo
+t1308049905
+s8
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/main.m
+c000000004DDF805F000000000000016D
+t1306493023
+s365
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/ChatClientViewController.xib
+c000000004DDF823800000000000052B9
+t1306493496
+s21177
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/ChatClient_Prefix.pch
+c000000004DDF805F00000000000000BD
+t1306493023
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/../ChatClientViewController.xib
+c000000004DE0B0DB0000000000008219
+t1306570971
+s33305
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatClientAppDelegate.h
+c000000004DDF805F00000000000001F2
+t1306493023
+s498
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatClientAppDelegate.m
+c000000004DDF805F0000000000000ABA
+t1306493023
+s2746
+i"ChatClientAppDelegate.h"
+i"ChatClientViewController.h"
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatClientViewController.h
+c000000004DE0B25E0000000000000460
+t1306571358
+s1120
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatClientViewController.m
+c000000004DE0B08A00000000000012EC
+t1306570890
+s4844
+i"ChatClientViewController.h"
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatMessagesViewController.h
+c000000004DE0AD47000000000000031F
+t1306570055
+s799
+i<UIKit/UIKit.h>
+i"ChatClientViewController.h"
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatMessagesViewController.m
+c000000004DE0AD3F000000000000083F
+t1306570047
+s2111
+i"ChatMessagesViewController.h"
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatMessagesViewController.xib
+c000000004DE0AD37000000000000635B
+t1306570039
+s25435
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/MainWindow.xib
+c000000004DDF805F0000000000004E4D
+t1306493023
+s20045
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClient.LinkFileList
+c000000004DE0AE7E00000000000001B1
+t1306570366
+s433
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientAppDelegate.o
+t1306571456
+s51904
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientViewController.o
+t1306571456
+s68756
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatMessagesViewController.o
+t1306570049
+s54944
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/main.o
+t1306570049
+s6320
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app
+t1306571456
+s272
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app.dSYM
+t1306571456
+s102
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient
+t1306571456
+s30860
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClientViewController.nib
+t1306570988
+s4845
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatMessagesViewController.nib
+t1306570047
+s3955
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/Info.plist
+t1306504830
+s606
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/MainWindow.nib
+t1306493182
+s1687
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/PkgInfo
+t1306504830
+s8
+
+N/Users/cesarerocchi/Desktop/tmp/ChatClient/main.m
+c000000004DDF805F000000000000016D
+t1306493023
+s365
+i<UIKit/UIKit.h>
+
+N/var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cemwwunhglexrgehdrswwzcempoi/ChatClient_Prefix.pch.gch
+t1306493183
+s15814064
+
+N/var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-fqqgexjbzdtmhkgemmhnsqjoloeb/ChatClient_Prefix.pch.gch
+t1308049908
+s15814064
+
+N/var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-gdqaxjvkcfiavybocfbhikugcrir/ChatClient_Prefix.pch.gch
+t1306570048
+s15814064
+
+NChatClient-Info.plist
+c000000004DDFA5150000000000000379
+t1306502421
+s889
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies329742705#329742705#0(0"0(0#1#0"8605418720#0"0#
+
+CCompileC build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientAppDelegate.o /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328194487.725793
+e328194487.885982
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientAppDelegate.o
+x/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m328194487#328194487#0(0"0(0#0#70"/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m8672096128#2016"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources/i386 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cemwwunhglexrgehdrswwzcempoi/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientAppDelegate.o0#
+
+CCompileC build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientAppDelegate.o /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329742708.784215
+e329742708.898668
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientAppDelegate.o
+x/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m329742708#329742708#0(0"0(0#0#74"/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m8629604160#2060"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/include -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources/i386 -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-fqqgexjbzdtmhkgemmhnsqjoloeb/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientAppDelegate.o0#
+
+CCompileC build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientAppDelegate.o /Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatClientAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328264256.506763
+e328264256.732833
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientAppDelegate.o
+x/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatClientAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatClientAppDelegate.m328264256#328264256#0(0"0(0#0#74"/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatClientAppDelegate.m8607132192#2060"    cd /Users/cesarerocchi/Desktop/tmp/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/include -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources/i386 -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-gdqaxjvkcfiavybocfbhikugcrir/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatClientAppDelegate.m -o /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientAppDelegate.o0#
+
+CCompileC build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientViewController.o /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328197630.201238
+e328197632.429220
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientViewController.o
+x/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m328197630#328197632#0(0"0(0#0#73"/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m8657962880#2022"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources/i386 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cemwwunhglexrgehdrswwzcempoi/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientViewController.o0#
+
+CCompileC build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientViewController.o /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329742708.863332
+e329742708.936025
+r0
+xCompileC
+xbuild/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientViewController.o
+x/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m: In function '-[ChatClientViewController stream:handleEvent:]':
+o/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m:71: error: request for member 'streamEvent' in something not a structure or union
+o/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m:71: warning: format not a string literal and no format arguments
+o{standard input}:572:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000004$pb"
+o{standard input}:572:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:566:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000004$pb"
+o{standard input}:566:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:559:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000004$pb"
+o{standard input}:559:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:552:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:552:symbol: "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:543:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000004$pb"
+o{standard input}:543:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:536:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000004$pb"
+o{standard input}:536:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:529:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000004$pb"
+o{standard input}:529:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:526:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000004$pb"
+o{standard input}:526:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression
+o{standard input}:517:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000004$pb"
+o{standard input}:517:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:510:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000004$pb"
+o{standard input}:510:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:504:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.inputMessageField$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:504:symbol: "L_OBJC_IVAR_$_ChatClientViewController.inputMessageField$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:500:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000004$pb"
+o{standard input}:500:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
+o{standard input}:454:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000003$pb"
+o{standard input}:454:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:448:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"
+o{standard input}:448:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:441:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000003$pb"
+o{standard input}:441:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:434:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:434:symbol: "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:425:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000003$pb"
+o{standard input}:425:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:418:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000003$pb"
+o{standard input}:418:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:411:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"
+o{standard input}:411:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:408:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000003$pb"
+o{standard input}:408:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression
+o{standard input}:399:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000003$pb"
+o{standard input}:399:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:392:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000003$pb"
+o{standard input}:392:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:386:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.inputNameField$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:386:symbol: "L_OBJC_IVAR_$_ChatClientViewController.inputNameField$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:382:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000003$pb"
+o{standard input}:382:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
+o{standard input}:375:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000003$pb"
+o{standard input}:375:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:370:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.chatView$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:370:symbol: "L_OBJC_IVAR_$_ChatClientViewController.chatView$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:363:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000003$pb"
+o{standard input}:363:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:318:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"
+o{standard input}:318:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:312:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:312:symbol: "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:305:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"
+o{standard input}:305:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:299:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:299:symbol: "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:290:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"
+o{standard input}:290:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:284:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"
+o{standard input}:284:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:281:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000002$pb"
+o{standard input}:281:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
+o{standard input}:278:non-relocatable subtraction expression, "L_NSDefaultRunLoopMode$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:278:symbol: "L_NSDefaultRunLoopMode$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:272:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:272:symbol: "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:263:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"
+o{standard input}:263:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:257:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"
+o{standard input}:257:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:254:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000002$pb"
+o{standard input}:254:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
+o{standard input}:251:non-relocatable subtraction expression, "L_NSDefaultRunLoopMode$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:251:symbol: "L_NSDefaultRunLoopMode$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:245:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:245:symbol: "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:237:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+o{standard input}:237:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:230:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:230:symbol: "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:222:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+o{standard input}:222:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:215:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:215:symbol: "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:206:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:206:symbol: "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:197:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:197:symbol: "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:142:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"
+o{standard input}:142:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:135:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"
+o{standard input}:135:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:127:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"
+o{standard input}:127:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:120:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"
+o{standard input}:120:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:112:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
+o{standard input}:112:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:106:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:106:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:103:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+o{standard input}:103:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:98:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.messages$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:98:symbol: "L_OBJC_IVAR_$_ChatClientViewController.messages$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:90:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:90:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:83:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.inputNameField$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:83:symbol: "L_OBJC_IVAR_$_ChatClientViewController.inputNameField$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:76:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:76:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:69:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:69:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:65:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"
+o{standard input}:65:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ChatClientViewController.inputNameField$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ChatClientViewController.messages$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_NSDefaultRunLoopMode$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ChatClientViewController.chatView$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ChatClientViewController.inputMessageField$non_lazy_ptr
+lSLF07#2@85"Compile /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m329742708#329742708#0(17703"/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m: In function '-[ChatClientViewController stream:handleEvent:]':/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m:71: error: request for member 'streamEvent' in something not a structure or union/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m:71: warning: format not a string literal and no format arguments{standard input}:572:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000004$pb"{standard input}:572:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:566:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000004$pb"{standard input}:566:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:559:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000004$pb"{standard input}:559:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:552:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" minus "L00000000004$pb"{standard input}:552:symbol: "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:543:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000004$pb"{standard input}:543:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:536:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000004$pb"{standard input}:536:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:529:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000004$pb"{standard input}:529:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:526:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000004$pb"{standard input}:526:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression{standard input}:517:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000004$pb"{standard input}:517:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:510:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000004$pb"{standard input}:510:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:504:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.inputMessageField$non_lazy_ptr" minus "L00000000004$pb"{standard input}:504:symbol: "L_OBJC_IVAR_$_ChatClientViewController.inputMessageField$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:500:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000004$pb"{standard input}:500:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:454:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000003$pb"{standard input}:454:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:448:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"{standard input}:448:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:441:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000003$pb"{standard input}:441:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:434:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" minus "L00000000003$pb"{standard input}:434:symbol: "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:425:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000003$pb"{standard input}:425:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:418:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000003$pb"{standard input}:418:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:411:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"{standard input}:411:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:408:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000003$pb"{standard input}:408:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression{standard input}:399:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000003$pb"{standard input}:399:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:392:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000003$pb"{standard input}:392:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:386:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.inputNameField$non_lazy_ptr" minus "L00000000003$pb"{standard input}:386:symbol: "L_OBJC_IVAR_$_ChatClientViewController.inputNameField$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:382:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000003$pb"{standard input}:382:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:375:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000003$pb"{standard input}:375:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:370:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.chatView$non_lazy_ptr" minus "L00000000003$pb"{standard input}:370:symbol: "L_OBJC_IVAR_$_ChatClientViewController.chatView$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:363:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000003$pb"{standard input}:363:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:318:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"{standard input}:318:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:312:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" minus "L00000000002$pb"{standard input}:312:symbol: "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:305:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"{standard input}:305:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:299:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" minus "L00000000002$pb"{standard input}:299:symbol: "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:290:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"{standard input}:290:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:284:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"{standard input}:284:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:281:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000002$pb"{standard input}:281:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression{standard input}:278:non-relocatable subtraction expression, "L_NSDefaultRunLoopMode$non_lazy_ptr" minus "L00000000002$pb"{standard input}:278:symbol: "L_NSDefaultRunLoopMode$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:272:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" minus "L00000000002$pb"{standard input}:272:symbol: "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:263:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"{standard input}:263:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:257:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"{standard input}:257:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:254:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000002$pb"{standard input}:254:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression{standard input}:251:non-relocatable subtraction expression, "L_NSDefaultRunLoopMode$non_lazy_ptr" minus "L00000000002$pb"{standard input}:251:symbol: "L_NSDefaultRunLoopMode$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:245:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" minus "L00000000002$pb"{standard input}:245:symbol: "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:237:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"{standard input}:237:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:230:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" minus "L00000000002$pb"{standard input}:230:symbol: "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:222:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"{standard input}:222:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:215:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" minus "L00000000002$pb"{standard input}:215:symbol: "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:206:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" minus "L00000000002$pb"{standard input}:206:symbol: "L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:197:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" minus "L00000000002$pb"{standard input}:197:symbol: "L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:142:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"{standard input}:142:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:135:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"{standard input}:135:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:127:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"{standard input}:127:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:120:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"{standard input}:120:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:112:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:112:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:106:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:106:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:103:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"{standard input}:103:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:98:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.messages$non_lazy_ptr" minus "L00000000001$pb"{standard input}:98:symbol: "L_OBJC_IVAR_$_ChatClientViewController.messages$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:90:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:90:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:83:non-relocatable subtraction expression, "L_OBJC_IVAR_$_ChatClientViewController.inputNameField$non_lazy_ptr" minus "L00000000001$pb"{standard input}:83:symbol: "L_OBJC_IVAR_$_ChatClientViewController.inputNameField$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:76:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:76:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:69:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:69:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:65:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"{standard input}:65:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ChatClientViewController.inputNameField$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ChatClientViewController.messages$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ChatClientViewController.inputStream$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ChatClientViewController.outputStream$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_NSDefaultRunLoopMode$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ChatClientViewController.chatView$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_ChatClientViewController.inputMessageField$non_lazy_ptr2(4@70"Request for member 'streamEvent' in something not a structure or union329742708#142#160#0(6@77"/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m329742679#71#0#71#0#0"0(22@51"Format not a string literal and no format arguments329742708#302#143#0(6@77"/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m329742679#71#0#71#0#51"format not a string literal and no format arguments0(0#0#77"/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m8629212864#2066"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/include -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources/i386 -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-fqqgexjbzdtmhkgemmhnsqjoloeb/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientViewController.o1#
+
+CCompileC build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientViewController.o /Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatClientViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328264256.508038
+e328264256.749631
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientViewController.o
+x/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatClientViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatClientViewController.m328264256#328264256#0(0"0(0#0#77"/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatClientViewController.m8605915360#2066"    cd /Users/cesarerocchi/Desktop/tmp/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/include -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources/i386 -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-gdqaxjvkcfiavybocfbhikugcrir/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatClientViewController.m -o /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClientViewController.o0#
+
+CCompileC build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatMessagesViewController.o /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328198481.405190
+e328198481.588577
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatMessagesViewController.o
+x/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m328198481#328198481#0(0"0(0#0#75"/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m8625370560#2026"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources/i386 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cemwwunhglexrgehdrswwzcempoi/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatMessagesViewController.o0#
+
+CCompileC build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatMessagesViewController.o /Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatMessagesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328262849.157089
+e328262849.283005
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatMessagesViewController.o
+x/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatMessagesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatMessagesViewController.m328262849#328262849#0(0"0(0#0#79"/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatMessagesViewController.m8611738848#2070"    cd /Users/cesarerocchi/Desktop/tmp/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/include -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources/i386 -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-gdqaxjvkcfiavybocfbhikugcrir/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatMessagesViewController.m -o /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatMessagesViewController.o0#
+
+CCompileC build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/main.o /Users/cesarerocchi/Desktop/ChatClient/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328185984.155217
+e328185984.225231
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/main.o
+x/Users/cesarerocchi/Desktop/ChatClient/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/cesarerocchi/Desktop/ChatClient/main.m328185984#328185984#0(0"0(0#0#45"/Users/cesarerocchi/Desktop/ChatClient/main.m8652549024#1974"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources/i386 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cemwwunhglexrgehdrswwzcempoi/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ChatClient/main.m -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/main.o0#
+
+CCompileC build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/main.o /Users/cesarerocchi/Desktop/ray/ChatClient/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329742708.782830
+e329742708.863115
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/main.o
+x/Users/cesarerocchi/Desktop/ray/ChatClient/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/cesarerocchi/Desktop/ray/ChatClient/main.m329742708#329742708#0(0"0(0#0#49"/Users/cesarerocchi/Desktop/ray/ChatClient/main.m8630511776#2018"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/include -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources/i386 -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-fqqgexjbzdtmhkgemmhnsqjoloeb/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ray/ChatClient/main.m -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/main.o0#
+
+CCompileC build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/main.o /Users/cesarerocchi/Desktop/tmp/ChatClient/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328262848.977500
+e328262849.129493
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/main.o
+x/Users/cesarerocchi/Desktop/tmp/ChatClient/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/cesarerocchi/Desktop/tmp/ChatClient/main.m328262848#328262849#0(0"0(0#0#49"/Users/cesarerocchi/Desktop/tmp/ChatClient/main.m8610471008#2018"    cd /Users/cesarerocchi/Desktop/tmp/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/include -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources/i386 -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-gdqaxjvkcfiavybocfbhikugcrir/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/tmp/ChatClient/main.m -o /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/cesarerocchi/Desktop/ChatClient/ChatClientViewController.xib
+s328186303.047563
+e328186303.523681
+r1
+xCompileXIB
+x/Users/cesarerocchi/Desktop/ChatClient/ChatClientViewController.xib
+lSLF07#2@39"CompileXIB ChatClientViewController.xib328186303#328186303#0(0"0(0#0#67"/Users/cesarerocchi/Desktop/ChatClient/ChatClientViewController.xib8624058688#601"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClientViewController.nib /Users/cesarerocchi/Desktop/ChatClient/ChatClientViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.xib
+s328198021.978359
+e328198022.446554
+r1
+xCompileXIB
+x/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.xib
+lSLF07#2@49"CompileXIB Classes/ChatMessagesViewController.xib328198021#328198022#0(0"0(0#0#77"/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.xib28429423624978548#613"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatMessagesViewController.nib /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/cesarerocchi/Desktop/ChatClient/MainWindow.xib
+s328185982.107670
+e328185982.552807
+r1
+xCompileXIB
+x/Users/cesarerocchi/Desktop/ChatClient/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib328185982#328185982#0(0"0(0#0#53"/Users/cesarerocchi/Desktop/ChatClient/MainWindow.xib8632305664#573"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/MainWindow.nib /Users/cesarerocchi/Desktop/ChatClient/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/../ChatClientViewController.xib
+s329742705.817255
+e329742706.612562
+r1
+xCompileXIB
+x/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/../ChatClientViewController.xib
+lSLF07#2@50"CompileXIB Classes/../ChatClientViewController.xib329742705#329742706#0(0"0(0#0#82"/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/../ChatClientViewController.xib8630329312#624"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClientViewController.nib /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/../ChatClientViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatMessagesViewController.xib
+r0
+
+CCompileXIB /Users/cesarerocchi/Desktop/ray/ChatClient/MainWindow.xib
+s329742705.816507
+e329742706.266306
+r1
+xCompileXIB
+x/Users/cesarerocchi/Desktop/ray/ChatClient/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib329742705#329742706#0(0"0(0#0#57"/Users/cesarerocchi/Desktop/ray/ChatClient/MainWindow.xib8630684320#585"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/MainWindow.nib /Users/cesarerocchi/Desktop/ray/ChatClient/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/cesarerocchi/Desktop/tmp/ChatClient/ChatClientViewController.xib
+r0
+
+CCompileXIB /Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/../ChatClientViewController.xib
+s328263787.785322
+e328263788.287766
+r1
+xCompileXIB
+x/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/../ChatClientViewController.xib
+lSLF07#2@50"CompileXIB Classes/../ChatClientViewController.xib328263787#328263788#0(0"0(0#0#82"/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/../ChatClientViewController.xib8615596448#624"    cd /Users/cesarerocchi/Desktop/tmp/ChatClient    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClientViewController.nib /Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/../ChatClientViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatMessagesViewController.xib
+s328262847.179177
+e328262847.744187
+r1
+xCompileXIB
+x/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatMessagesViewController.xib
+lSLF07#2@49"CompileXIB Classes/ChatMessagesViewController.xib328262847#328262847#0(0"0(0#0#81"/Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatMessagesViewController.xib4841216141943204864#625"    cd /Users/cesarerocchi/Desktop/tmp/ChatClient    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatMessagesViewController.nib /Users/cesarerocchi/Desktop/tmp/ChatClient/Classes/ChatMessagesViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/cesarerocchi/Desktop/tmp/ChatClient/MainWindow.xib
+r0
+
+CGenerateDSYMFile /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app.dSYM /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient
+s328198481.617742
+e328198481.637239
+r1
+xGenerateDSYMFile
+x/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app.dSYM
+x/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/ChatClient.app.dSYM build/Debug-iphonesimulator/ChatClient.app/ChatClient328198481#328198481#0(0"0(0#0#92"/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient8629390912#392"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient -o /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app.dSYM0#
+
+CGenerateDSYMFile /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app.dSYM /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient
+s329741476.491683
+e329741476.509050
+r1
+xGenerateDSYMFile
+x/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app.dSYM
+x/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/ChatClient.app.dSYM build/Debug-iphonesimulator/ChatClient.app/ChatClient329741476#329741476#0(0"0(0#0#96"/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient8615237408#404"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app.dSYM0#
+
+CGenerateDSYMFile /Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app.dSYM /Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient
+s328264256.780276
+e328264256.797651
+r1
+xGenerateDSYMFile
+x/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app.dSYM
+x/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/ChatClient.app.dSYM build/Debug-iphonesimulator/ChatClient.app/ChatClient328264256#328264256#0(0"0(0#0#96"/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient8612213856#404"    cd /Users/cesarerocchi/Desktop/tmp/ChatClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient -o /Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app.dSYM0#
+
+CLd /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient normal i386
+s328198481.588802
+e328198481.617640
+r1
+xLd
+x/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient
+xnormal
+xi386
+lSLF07#2@97"Link /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient328198481#328198481#0(0"0(0#0#0"8630092864#915"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator -filelist /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClient.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient0#
+
+CLd /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient normal i386
+s329741476.464406
+e329741476.491582
+r1
+xLd
+x/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient
+xnormal
+xi386
+lSLF07#2@101"Link /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient329741476#329741476#0(0"0(0#0#0"8615868032#935"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator -filelist /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClient.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient0#
+
+CLd /Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient normal i386
+s328264256.749739
+e328264256.780176
+r1
+xLd
+x/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient
+xnormal
+xi386
+lSLF07#2@101"Link /Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient328264256#328264256#0(0"0(0#0#0"8615482624#935"    cd /Users/cesarerocchi/Desktop/tmp/ChatClient    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator -F/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator -filelist /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/Objects-normal/i386/ChatClient.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/ChatClient0#
+
+CProcessInfoPlistFile /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/Info.plist ChatClient-Info.plist
+s328197630.197265
+e328197630.200706
+r1
+xProcessInfoPlistFile
+x/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/Info.plist
+xChatClient-Info.plist
+lSLF07#2@29"Process ChatClient-Info.plist328197630#328197630#0(0"0(0#0#60"/Users/cesarerocchi/Desktop/ChatClient/ChatClient-Info.plist8666323328#488"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ChatClient-Info.plist -genpkginfo /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/Info.plist ChatClient-Info.plist
+s329742705.812434
+e329742705.816423
+r1
+xProcessInfoPlistFile
+x/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/Info.plist
+xChatClient-Info.plist
+lSLF07#2@29"Process ChatClient-Info.plist329742705#329742705#0(0"0(0#0#64"/Users/cesarerocchi/Desktop/ray/ChatClient/ChatClient-Info.plist8630975296#500"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ChatClient-Info.plist -genpkginfo /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app/Info.plist ChatClient-Info.plist
+r0
+
+CProcessPCH /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cemwwunhglexrgehdrswwzcempoi/ChatClient_Prefix.pch.gch ChatClient_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s328185982.637577
+e328185984.154905
+r1
+xProcessPCH
+x/var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cemwwunhglexrgehdrswwzcempoi/ChatClient_Prefix.pch.gch
+xChatClient_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile ChatClient_Prefix.pch328185982#328185984#0(0"0(0#0#60"/Users/cesarerocchi/Desktop/ChatClient/ChatClient_Prefix.pch8651630656#1863"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources/i386 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources -c /Users/cesarerocchi/Desktop/ChatClient/ChatClient_Prefix.pch -o /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cemwwunhglexrgehdrswwzcempoi/ChatClient_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-fqqgexjbzdtmhkgemmhnsqjoloeb/ChatClient_Prefix.pch.gch ChatClient_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s329742706.612700
+e329742708.782641
+r1
+xProcessPCH
+x/var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-fqqgexjbzdtmhkgemmhnsqjoloeb/ChatClient_Prefix.pch.gch
+xChatClient_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile ChatClient_Prefix.pch329742706#329742708#0(0"0(0#0#64"/Users/cesarerocchi/Desktop/ray/ChatClient/ChatClient_Prefix.pch8638240096#1903"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/include -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources/i386 -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources -c /Users/cesarerocchi/Desktop/ray/ChatClient/ChatClient_Prefix.pch -o /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-fqqgexjbzdtmhkgemmhnsqjoloeb/ChatClient_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-gdqaxjvkcfiavybocfbhikugcrir/ChatClient_Prefix.pch.gch ChatClient_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s328262847.744420
+e328262848.977289
+r1
+xProcessPCH
+x/var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-gdqaxjvkcfiavybocfbhikugcrir/ChatClient_Prefix.pch.gch
+xChatClient_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile ChatClient_Prefix.pch328262847#328262848#0(0"0(0#0#64"/Users/cesarerocchi/Desktop/tmp/ChatClient/ChatClient_Prefix.pch8615831328#1903"    cd /Users/cesarerocchi/Desktop/tmp/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/include -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources/i386 -I/Users/cesarerocchi/Desktop/tmp/ChatClient/build/ChatClient.build/Debug-iphonesimulator/ChatClient.build/DerivedSources -c /Users/cesarerocchi/Desktop/tmp/ChatClient/ChatClient_Prefix.pch -o /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-gdqaxjvkcfiavybocfbhikugcrir/ChatClient_Prefix.pch.gch0#
+
+CTouch /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app
+s328198481.637328
+e328198481.640158
+r1
+xTouch
+x/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app
+lSLF07#2@87"Touch /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app328198481#328198481#0(0"0(0#0#0"8629097312#281"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphonesimulator/ChatClient.app0#
+
+CTouch /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app
+s329741476.509142
+e329741476.511996
+r1
+xTouch
+x/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app
+lSLF07#2@91"Touch /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app329741476#329741476#0(0"0(0#0#0"8611108544#289"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphonesimulator/ChatClient.app0#
+
+CTouch /Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app
+s328264256.797743
+e328264256.800314
+r1
+xTouch
+x/Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app
+lSLF07#2@91"Touch /Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app328264256#328264256#0(0"0(0#0#0"8611927168#289"    cd /Users/cesarerocchi/Desktop/tmp/ChatClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cesarerocchi/Desktop/tmp/ChatClient/build/Debug-iphonesimulator/ChatClient.app0#
+

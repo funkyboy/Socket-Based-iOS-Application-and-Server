@@ -1,0 +1,833 @@
+TChatClient
+v7
+r0
+t329652170.538403
+cCheck dependencies
+cCpResource build/Debug-iphoneos/ChatClient.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/Info.plist ChatClient-Info.plist
+cCompileXIB /Users/cesarerocchi/Desktop/ray/ChatClient/MainWindow.xib
+cCompileXIB /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/../ChatClientViewController.xib
+cCompileXIB /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatMessagesViewController.xib
+cProcessPCH /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-hacluadkhsutukaxevqmvlxfuoxr/ChatClient_Prefix.pch.gch ChatClient_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cijrnascaimmfrerbmrpgoajuaol/ChatClient_Prefix.pch.gch ChatClient_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/main.o /Users/cesarerocchi/Desktop/ray/ChatClient/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientAppDelegate.o /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientViewController.o /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient normal armv6
+cCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/main.o /Users/cesarerocchi/Desktop/ray/ChatClient/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientAppDelegate.o /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientViewController.o /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient normal armv7
+cCreateUniversalBinary /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient normal "armv6 armv7"
+cGenerateDSYMFile /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app.dSYM /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient
+cProcessProductPackaging "/Users/cesarerocchi/Library/MobileDevice/Provisioning Profiles/DAFA4D07-7DB5-4C03-A79F-D28A77CD1FD5.mobileprovision" /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/embedded.mobileprovision
+cTouch /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient.xcent
+cCodeSign /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/cesarerocchi/Desktop/ChatClient/ChatClientViewController.xib
+c000000004DDF823800000000000052B9
+t1306493496
+s21177
+
+N/Users/cesarerocchi/Desktop/ChatClient/ChatClient_Prefix.pch
+c000000004DDF805F00000000000000BD
+t1306493023
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.h
+c000000004DDF805F00000000000001F2
+t1306493023
+s498
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m
+c000000004DDF805F0000000000000ABA
+t1306493023
+s2746
+i"ChatClientAppDelegate.h"
+i"ChatClientViewController.h"
+
+N/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.h
+c000000004DDF9CC70000000000000365
+t1306500295
+s869
+i<UIKit/UIKit.h>
+i"ChatMessagesViewController.h"
+
+N/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m
+c000000004DDFA6790000000000000ECA
+t1306502777
+s3786
+i"ChatClientViewController.h"
+
+N/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.h
+c000000004DDFA2370000000000000318
+t1306501687
+s792
+i<UIKit/UIKit.h>
+i"ChatClientViewController.h"
+
+N/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m
+c000000004DDFA2DB0000000000000769
+t1306501851
+s1897
+i"ChatMessagesViewController.h"
+
+N/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.xib
+c000000004DDFA26C000000000000638F
+t1306501740
+s25487
+
+N/Users/cesarerocchi/Desktop/ChatClient/MainWindow.xib
+c000000004DDF805F0000000000004E4D
+t1306493023
+s20045
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient.xcent
+t1306502427
+s432
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient
+t1306502780
+s32228
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient.LinkFileList
+c000000004DDFA5160000000000000223
+t1306502422
+s547
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientAppDelegate.o
+t1306502426
+s51400
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientViewController.o
+t1306502778
+s55196
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatMessagesViewController.o
+t1306502426
+s52644
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/main.o
+t1306502426
+s6448
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient
+t1306502780
+s32476
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient.LinkFileList
+c000000004DDFA5160000000000000223
+t1306502422
+s547
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientAppDelegate.o
+t1306502426
+s51292
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientViewController.o
+t1306502778
+s54440
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatMessagesViewController.o
+t1306502426
+s52448
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/main.o
+t1306502426
+s6432
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app
+t1306504856
+s408
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app.dSYM
+t1306502780
+s102
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient
+t1306502780
+s83504
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClientViewController.nib
+t1306502423
+s3445
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatMessagesViewController.nib
+t1306502423
+s3950
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/Info.plist
+t1306502422
+s854
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/MainWindow.nib
+t1306502423
+s1687
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/PkgInfo
+t1306502422
+s8
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ResourceRules.plist
+t1306502422
+s485
+
+N/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/embedded.mobileprovision
+t1306502555
+s7179
+
+N/Users/cesarerocchi/Desktop/ChatClient/main.m
+c000000004DDF805F000000000000016D
+t1306493023
+s365
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/ChatClient_Prefix.pch
+c000000004DDF805F00000000000000BD
+t1306493023
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/../ChatClientViewController.xib
+c000000004DE0B0DB0000000000008219
+t1306570971
+s33305
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.h
+c000000004DDF805F00000000000001F2
+t1306493023
+s498
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m
+c000000004DDF805F0000000000000ABA
+t1306493023
+s2746
+i"ChatClientAppDelegate.h"
+i"ChatClientViewController.h"
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.h
+c000000004DE0B25E0000000000000460
+t1306571358
+s1120
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m
+c000000004DE89E6400000000000012EA
+t1307090532
+s4842
+i"ChatClientViewController.h"
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatMessagesViewController.xib
+c000000004DE0AD37000000000000635B
+t1306570039
+s25435
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/MainWindow.xib
+c000000004DDF805F0000000000004E4D
+t1306493023
+s20045
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient.xcent
+t1306502427
+s432
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient
+t1307090537
+s30808
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient.LinkFileList
+c000000004DE89DE3000000000000019F
+t1307090403
+s415
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientAppDelegate.o
+t1307090405
+s51284
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientViewController.o
+t1307090537
+s66480
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/main.o
+t1307090405
+s6456
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient
+t1307090537
+s31060
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient.LinkFileList
+c000000004DE89DE3000000000000019F
+t1307090403
+s415
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientAppDelegate.o
+t1307090406
+s51176
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientViewController.o
+t1307090537
+s65592
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/main.o
+t1307090405
+s6440
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app
+t1307123821
+s408
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app.dSYM
+t1307090537
+s102
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient
+t1307090537
+s78000
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClientViewController.nib
+t1307090403
+s4845
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatMessagesViewController.nib
+t1307090403
+s3955
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/Info.plist
+t1306502422
+s854
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/MainWindow.nib
+t1306502423
+s1687
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/PkgInfo
+t1306502422
+s8
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ResourceRules.plist
+t1306502422
+s485
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/embedded.mobileprovision
+t1306502555
+s7179
+
+N/Users/cesarerocchi/Desktop/ray/ChatClient/main.m
+c000000004DDF805F000000000000016D
+t1306493023
+s365
+i<UIKit/UIKit.h>
+
+N/Users/cesarerocchi/Library/MobileDevice/Provisioning Profiles/DAFA4D07-7DB5-4C03-A79F-D28A77CD1FD5.mobileprovision
+c000000004DDFA4FE0000000000001C0B
+t1306502398
+s7179
+
+N/var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cijrnascaimmfrerbmrpgoajuaol/ChatClient_Prefix.pch.gch
+t1307090405
+s10647452
+
+N/var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-dawsybyjxpmeredjidoeebfypstm/ChatClient_Prefix.pch.gch
+t1306502425
+s10184604
+
+N/var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-essuhpuolegppbchkvyrkrgfhllo/ChatClient_Prefix.pch.gch
+t1306502425
+s10647452
+
+N/var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-hacluadkhsutukaxevqmvlxfuoxr/ChatClient_Prefix.pch.gch
+t1307090405
+s10184604
+
+NChatClient-Info.plist
+c000000004DDFA5150000000000000379
+t1306502421
+s889
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies329652168#329652169#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCodeSign /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app
+s328197655.719808
+e328197656.331713
+r1
+xCodeSign
+x/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app
+o/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app: replacing existing signature
+lSLF07#2@44"CodeSign build/Debug-iphoneos/ChatClient.app328197655#328197656#0(105"/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app: replacing existing signature0(0#0#74"/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app8661926656#664"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Cesare Rocchi (62M8YPP9ZP)" --resource-rules=/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ResourceRules.plist --entitlements /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient.xcent /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app0#
+
+CCodeSign /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app
+s329652169.279072
+e329652170.538337
+r1
+xCodeSign
+x/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app
+o/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app: replacing existing signature
+lSLF07#2@44"CodeSign build/Debug-iphoneos/ChatClient.app329652169#329652170#0(109"/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app: replacing existing signature0(0#0#78"/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app31244169098821736#680"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Cesare Rocchi (62M8YPP9ZP)" --resource-rules=/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ResourceRules.plist --entitlements /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient.xcent /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app0#
+
+CCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientAppDelegate.o /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328195225.992368
+e328195226.151385
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientAppDelegate.o
+x/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m328195225#328195226#0(0"0(0#0#70"/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m8600209728#1826"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv6 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-dawsybyjxpmeredjidoeebfypstm/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientAppDelegate.o0#
+
+CCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientAppDelegate.o /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328783205.601589
+e328783205.839190
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientAppDelegate.o
+x/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m328783205#328783205#0(0"0(0#0#74"/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m8604577056#1870"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv6 -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-hacluadkhsutukaxevqmvlxfuoxr/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientAppDelegate.o0#
+
+CCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientViewController.o /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328195578.457113
+e328195578.687607
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientViewController.o
+x/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m328195578#328195578#0(0"0(0#0#73"/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m8632920768#1832"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv6 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-dawsybyjxpmeredjidoeebfypstm/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientViewController.o0#
+
+CCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientViewController.o /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328783337.455592
+e328783337.725772
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientViewController.o
+x/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m328783337#328783337#0(0"0(0#0#77"/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m8319383698887823360#1876"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv6 -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-hacluadkhsutukaxevqmvlxfuoxr/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClientViewController.o0#
+
+CCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatMessagesViewController.o /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328195226.151760
+e328195226.297952
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatMessagesViewController.o
+x/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m328195226#328195226#0(0"0(0#0#75"/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m8663315680#1836"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv6 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-dawsybyjxpmeredjidoeebfypstm/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatMessagesViewController.o0#
+
+CCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/main.o /Users/cesarerocchi/Desktop/ChatClient/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328195225.990939
+e328195226.139963
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/main.o
+x/Users/cesarerocchi/Desktop/ChatClient/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/cesarerocchi/Desktop/ChatClient/main.m328195225#328195226#0(0"0(0#0#45"/Users/cesarerocchi/Desktop/ChatClient/main.m8657577440#1784"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv6 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-dawsybyjxpmeredjidoeebfypstm/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ChatClient/main.m -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/main.o /Users/cesarerocchi/Desktop/ray/ChatClient/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328783205.600574
+e328783205.820741
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/main.o
+x/Users/cesarerocchi/Desktop/ray/ChatClient/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/cesarerocchi/Desktop/ray/ChatClient/main.m328783205#328783205#0(0"0(0#0#49"/Users/cesarerocchi/Desktop/ray/ChatClient/main.m8606528704#1828"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv6 -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-hacluadkhsutukaxevqmvlxfuoxr/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ray/ChatClient/main.m -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientAppDelegate.o /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328195226.389934
+e328195226.474786
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientAppDelegate.o
+x/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m328195226#328195226#0(0"0(0#0#70"/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m8665939776#1826"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv7 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-essuhpuolegppbchkvyrkrgfhllo/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientAppDelegate.m -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientAppDelegate.o0#
+
+CCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientAppDelegate.o /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328783205.904235
+e328783206.010367
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientAppDelegate.o
+x/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m328783205#328783206#0(0"0(0#0#74"/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m8599230080#1870"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv7 -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cijrnascaimmfrerbmrpgoajuaol/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientAppDelegate.m -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientAppDelegate.o0#
+
+CCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientViewController.o /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328195578.514395
+e328195578.710429
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientViewController.o
+x/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m328195578#328195578#0(0"0(0#0#73"/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m8671369728#1832"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv7 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-essuhpuolegppbchkvyrkrgfhllo/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatClientViewController.m -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientViewController.o0#
+
+CCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientViewController.o /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328783337.524753
+e328783337.697531
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientViewController.o
+x/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m328783337#328783337#0(0"0(0#0#77"/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m8610603520#1876"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv7 -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cijrnascaimmfrerbmrpgoajuaol/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatClientViewController.m -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClientViewController.o0#
+
+CCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatMessagesViewController.o /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328195226.578863
+e328195226.664682
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatMessagesViewController.o
+x/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m328195226#328195226#0(0"0(0#0#75"/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m8653509344#1836"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv7 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-essuhpuolegppbchkvyrkrgfhllo/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.m -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatMessagesViewController.o0#
+
+CCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/main.o /Users/cesarerocchi/Desktop/ChatClient/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328195226.298058
+e328195226.389831
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/main.o
+x/Users/cesarerocchi/Desktop/ChatClient/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/cesarerocchi/Desktop/ChatClient/main.m328195226#328195226#0(0"0(0#0#45"/Users/cesarerocchi/Desktop/ChatClient/main.m8689029856#1784"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv7 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-essuhpuolegppbchkvyrkrgfhllo/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ChatClient/main.m -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/main.o /Users/cesarerocchi/Desktop/ray/ChatClient/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328783205.839293
+e328783205.904136
+r1
+xCompileC
+xbuild/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/main.o
+x/Users/cesarerocchi/Desktop/ray/ChatClient/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/cesarerocchi/Desktop/ray/ChatClient/main.m328783205#328783205#0(0"0(0#0#49"/Users/cesarerocchi/Desktop/ray/ChatClient/main.m8604034304#1828"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv7 -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -include /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cijrnascaimmfrerbmrpgoajuaol/ChatClient_Prefix.pch -c /Users/cesarerocchi/Desktop/ray/ChatClient/main.m -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/cesarerocchi/Desktop/ChatClient/ChatClientViewController.xib
+s328195222.651815
+e328195223.266344
+r1
+xCompileXIB
+x/Users/cesarerocchi/Desktop/ChatClient/ChatClientViewController.xib
+lSLF07#2@39"CompileXIB ChatClientViewController.xib328195222#328195223#0(0"0(0#0#67"/Users/cesarerocchi/Desktop/ChatClient/ChatClientViewController.xib8672044672#573"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClientViewController.nib /Users/cesarerocchi/Desktop/ChatClient/ChatClientViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.xib
+s328195223.090603
+e328195223.555131
+r1
+xCompileXIB
+x/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.xib
+lSLF07#2@49"CompileXIB Classes/ChatMessagesViewController.xib328195223#328195223#0(0"0(0#0#77"/Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.xib8665240736#585"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatMessagesViewController.nib /Users/cesarerocchi/Desktop/ChatClient/Classes/ChatMessagesViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/cesarerocchi/Desktop/ChatClient/MainWindow.xib
+s328195222.650955
+e328195223.090500
+r1
+xCompileXIB
+x/Users/cesarerocchi/Desktop/ChatClient/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib328195222#328195223#0(0"0(0#0#53"/Users/cesarerocchi/Desktop/ChatClient/MainWindow.xib8672874944#545"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/MainWindow.nib /Users/cesarerocchi/Desktop/ChatClient/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/../ChatClientViewController.xib
+s328783203.033427
+e328783203.670978
+r1
+xCompileXIB
+x/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/../ChatClientViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@50"CompileXIB Classes/../ChatClientViewController.xib328783203#328783203#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#82"/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/../ChatClientViewController.xib4841216141943204864#596"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClientViewController.nib /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/../ChatClientViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatMessagesViewController.xib
+s328783203.059769
+e328783203.671137
+r1
+xCompileXIB
+x/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatMessagesViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@49"CompileXIB Classes/ChatMessagesViewController.xib328783203#328783203#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#81"/Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatMessagesViewController.xib8603987296#597"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatMessagesViewController.nib /Users/cesarerocchi/Desktop/ray/ChatClient/Classes/ChatMessagesViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/cesarerocchi/Desktop/ray/ChatClient/MainWindow.xib
+r0
+
+CCpResource build/Debug-iphoneos/ChatClient.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s328195222.584579
+e328195222.650864
+r1
+xCpResource
+xbuild/Debug-iphoneos/ChatClient.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist328195222#328195222#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist5423551314508738560#497"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app0#
+
+CCreateUniversalBinary /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient normal "armv6 armv7"
+s328195580.229722
+e328195580.245734
+r1
+xCreateUniversalBinary
+x/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient
+xnormal
+xarmv6 armv7
+lSLF07#2@89"CreateUniversalBinary build/Debug-iphoneos/ChatClient.app/ChatClient normal "armv6 armv7"328195580#328195580#0(0"0(0#0#50"/Users/cesarerocchi/Desktop/ChatClient/armv6 armv78638636000#542"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient -output /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient0#
+
+CCreateUniversalBinary /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient normal "armv6 armv7"
+s328783337.761977
+e328783337.765210
+r1
+xCreateUniversalBinary
+x/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient
+xnormal
+xarmv6 armv7
+lSLF07#2@89"CreateUniversalBinary build/Debug-iphoneos/ChatClient.app/ChatClient normal "armv6 armv7"328783337#328783337#0(0"0(0#0#54"/Users/cesarerocchi/Desktop/ray/ChatClient/armv6 armv78609811584#558"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient -output /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient0#
+
+CGenerateDSYMFile /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app.dSYM /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient
+s328195580.245999
+e328195580.374087
+r1
+xGenerateDSYMFile
+x/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app.dSYM
+x/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient
+lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/ChatClient.app.dSYM build/Debug-iphoneos/ChatClient.app/ChatClient328195580#328195580#0(0"0(0#0#85"/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient8662000832#371"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient -o /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app.dSYM0#
+
+CGenerateDSYMFile /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app.dSYM /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient
+s328783337.765288
+e328783337.792337
+r1
+xGenerateDSYMFile
+x/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app.dSYM
+x/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient
+lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/ChatClient.app.dSYM build/Debug-iphoneos/ChatClient.app/ChatClient328783337#328783337#0(0"0(0#0#89"/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient8607887040#383"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/ChatClient -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app.dSYM0#
+
+CLd /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient normal armv6
+s328195578.687735
+e328195580.229637
+r1
+xLd
+x/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient
+xnormal
+xarmv6
+lSLF07#2@130"Link /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient328195578#328195580#0(0"0(0#0#0"8631439648#877"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos -filelist /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient0#
+
+CLd /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient normal armv7
+s328195578.710625
+e328195580.229164
+r1
+xLd
+x/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient
+xnormal
+xarmv7
+lSLF07#2@130"Link /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient328195578#328195580#0(0"0(0#0#0"8663171584#877"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos -filelist /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient0#
+
+CLd /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient normal armv6
+s328783337.725861
+e328783337.761879
+r1
+xLd
+x/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient
+xnormal
+xarmv6
+lSLF07#2@134"Link /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient328783337#328783337#0(0"0(0#0#0"8610294304#897"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos -filelist /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv6/ChatClient0#
+
+CLd /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient normal armv7
+s328783337.697627
+e328783337.743245
+r1
+xLd
+x/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient
+xnormal
+xarmv7
+lSLF07#2@134"Link /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient328783337#328783337#0(0"0(0#0#0"8609913792#897"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos -filelist /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/Objects-normal/armv7/ChatClient0#
+
+CProcessInfoPlistFile /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/Info.plist ChatClient-Info.plist
+s328195222.585837
+e328195222.627819
+r1
+xProcessInfoPlistFile
+x/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/Info.plist
+xChatClient-Info.plist
+lSLF07#2@29"Process ChatClient-Info.plist328195222#328195222#0(0"0(0#0#60"/Users/cesarerocchi/Desktop/ChatClient/ChatClient-Info.plist8660581760#574"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ChatClient-Info.plist -genpkginfo /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/ResourceRules.plist -o /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/Info.plist ChatClient-Info.plist
+r0
+
+CProcessPCH /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cijrnascaimmfrerbmrpgoajuaol/ChatClient_Prefix.pch.gch ChatClient_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328783203.672508
+e328783205.455782
+r1
+xProcessPCH
+x/var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cijrnascaimmfrerbmrpgoajuaol/ChatClient_Prefix.pch.gch
+xChatClient_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile ChatClient_Prefix.pch328783203#328783205#0(0"0(0#0#64"/Users/cesarerocchi/Desktop/ray/ChatClient/ChatClient_Prefix.pch8607254496#1719"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv7 -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -c /Users/cesarerocchi/Desktop/ray/ChatClient/ChatClient_Prefix.pch -o /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-cijrnascaimmfrerbmrpgoajuaol/ChatClient_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-dawsybyjxpmeredjidoeebfypstm/ChatClient_Prefix.pch.gch ChatClient_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328195223.555255
+e328195225.781303
+r1
+xProcessPCH
+x/var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-dawsybyjxpmeredjidoeebfypstm/ChatClient_Prefix.pch.gch
+xChatClient_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile ChatClient_Prefix.pch328195223#328195225#0(0"0(0#0#60"/Users/cesarerocchi/Desktop/ChatClient/ChatClient_Prefix.pch8672765472#1679"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv6 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -c /Users/cesarerocchi/Desktop/ChatClient/ChatClient_Prefix.pch -o /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-dawsybyjxpmeredjidoeebfypstm/ChatClient_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-essuhpuolegppbchkvyrkrgfhllo/ChatClient_Prefix.pch.gch ChatClient_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328195223.556373
+e328195225.990837
+r1
+xProcessPCH
+x/var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-essuhpuolegppbchkvyrkrgfhllo/ChatClient_Prefix.pch.gch
+xChatClient_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile ChatClient_Prefix.pch328195223#328195225#0(0"0(0#0#60"/Users/cesarerocchi/Desktop/ChatClient/ChatClient_Prefix.pch8671919296#1679"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv7 -I/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -c /Users/cesarerocchi/Desktop/ChatClient/ChatClient_Prefix.pch -o /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-essuhpuolegppbchkvyrkrgfhllo/ChatClient_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-hacluadkhsutukaxevqmvlxfuoxr/ChatClient_Prefix.pch.gch ChatClient_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328783203.671506
+e328783205.600481
+r1
+xProcessPCH
+x/var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-hacluadkhsutukaxevqmvlxfuoxr/ChatClient_Prefix.pch.gch
+xChatClient_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile ChatClient_Prefix.pch328783203#328783205#0(0"0(0#0#64"/Users/cesarerocchi/Desktop/ray/ChatClient/ChatClient_Prefix.pch8607681760#1719"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-generated-files.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-own-target-headers.hmap -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-all-target-headers.hmap -iquote /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient-project-headers.hmap -F/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/include -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources/armv6 -I/Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/DerivedSources -c /Users/cesarerocchi/Desktop/ray/ChatClient/ChatClient_Prefix.pch -o /var/folders/Im/Imlt-jOiGdqPh1INd00Elk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChatClient_Prefix-hacluadkhsutukaxevqmvlxfuoxr/ChatClient_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/cesarerocchi/Library/MobileDevice/Provisioning Profiles/DAFA4D07-7DB5-4C03-A79F-D28A77CD1FD5.mobileprovision" /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/embedded.mobileprovision
+s328195355.495640
+e328195355.497175
+r1
+xProcessProductPackaging
+x/Users/cesarerocchi/Library/MobileDevice/Provisioning Profiles/DAFA4D07-7DB5-4C03-A79F-D28A77CD1FD5.mobileprovision
+x/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/cesarerocchi/Library/MobileDevice/Provisioning Profiles/DAFA4D07-7DB5-4C03-A79F-D28A77CD1FD5.mobileprovision" build/Debug-iphoneos/ChatClient.app/embedded.mobileprovision328195355#328195355#0(0"0(0#0#99"/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/embedded.mobileprovision8649800736#433"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/cesarerocchi/Library/MobileDevice/Provisioning Profiles/DAFA4D07-7DB5-4C03-A79F-D28A77CD1FD5.mobileprovision" -o /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/cesarerocchi/Library/MobileDevice/Provisioning Profiles/DAFA4D07-7DB5-4C03-A79F-D28A77CD1FD5.mobileprovision" /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient.xcent
+s328195227.779323
+e328195227.795995
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient.xcent
+lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient.xcent328195227#328195227#0(0"0(0#0#110"/Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient.xcent8661751680#441"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/cesarerocchi/Desktop/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient.xcent0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/cesarerocchi/Desktop/ray/ChatClient/build/ChatClient.build/Debug-iphoneos/ChatClient.build/ChatClient.xcent
+r0
+
+CTouch /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app
+s328195580.374289
+e328195580.404116
+r1
+xTouch
+x/Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app
+lSLF07#2@80"Touch /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app328195580#328195580#0(0"0(0#0#0"8646858528#267"    cd /Users/cesarerocchi/Desktop/ChatClient    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cesarerocchi/Desktop/ChatClient/build/Debug-iphoneos/ChatClient.app0#
+
+CTouch /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app
+s328783337.792477
+e328783337.795256
+r1
+xTouch
+x/Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app
+lSLF07#2@84"Touch /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app328783337#328783337#0(0"0(0#0#0"8607358272#275"    cd /Users/cesarerocchi/Desktop/ray/ChatClient    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cesarerocchi/Desktop/ray/ChatClient/build/Debug-iphoneos/ChatClient.app0#
+
